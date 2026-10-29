@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marketing Taste Playground</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231f5fbf'/%3E%3Cpath d='M4 8l3 3 5-6' stroke='white' stroke-width='2' fill='none'/%3E%3C/svg%3E">
+</head>
+<body>
+<header id="topbar">
+  <button id="btnSidebar" class="iconbtn" title="Toggle outline (S)" aria-label="Toggle sidebar">☰</button>
+  <a href="#/" class="brand">Marketing Taste Playground</a>
+  <div class="topprog" title="Overall progress"><div class="bar"><div id="topbarFill"></div></div><span id="topbarText"></span></div>
+  <nav>
+    <a href="#/" id="navHome">Home</a>
+    <a href="#/review" id="navReview">Review my misses <span id="missCount" class="pill">0</span></a>
+    <button id="btnFocus" class="btn small" title="Focus mode (F) — Esc to exit">⛶ Focus</button>
+  </nav>
+</header>
+<div id="focusbar"><span id="focusInfo"></span><button id="btnExitFocus" class="btn small" title="Exit focus (Esc)">✕ Exit focus (Esc)</button></div>
+<div id="layout">
+  <aside id="sidebar" aria-label="Course outline"><div id="outline"></div></aside>
+  <main id="main" tabindex="-1"></main>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="data/tasks.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

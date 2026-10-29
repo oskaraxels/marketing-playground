@@ -1,0 +1,214 @@
+{
+ "base": "http://127.0.0.1:18731/",
+ "label": "local",
+ "when": "2026-10-29 23:41:23 CET",
+ "passed": 41,
+ "total": 41,
+ "results": [
+  {
+   "test": "[1366x768] task count >= 200",
+   "pass": true,
+   "detail": "213"
+  },
+  {
+   "test": "[1366x768] all 213 tasks render and reveal (with source link + evidence label)",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "test": "[1366x768] revealing auto-marks tasks done",
+   "pass": true,
+   "detail": "213"
+  },
+  {
+   "test": "[1366x768] reset clears progress",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] keyboard 2 selects option 2 and Enter reveals",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] Enter after reveal goes to next task",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] ArrowLeft goes back",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] Mark done persists across reload (button + sidebar \u2713 + strike class)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] M key toggles done and persists",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] written answer persists across reload",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] home shows progress and Continue",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] Focus mode via F and Esc exits",
+   "pass": true,
+   "detail": "(True, True)"
+  },
+  {
+   "test": "[1366x768] Focus button + Exit button",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] Sidebar \u2630 toggle (persists) and S key",
+   "pass": true,
+   "detail": "(True, True, True, True)"
+  },
+  {
+   "test": "[1366x768] Review my misses: wrong answer queued, re-answer clears",
+   "pass": true,
+   "detail": "(1, True, True)"
+  },
+  {
+   "test": "[1366x768] accuracy stat displayed",
+   "pass": true,
+   "detail": "100%"
+  },
+  {
+   "test": "[1366x768] export JSON",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] import JSON restores progress",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] no horizontal overflow",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1366x768] no console errors",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "test": "[1440x900] task count >= 200",
+   "pass": true,
+   "detail": "213"
+  },
+  {
+   "test": "[1440x900] all 213 tasks render and reveal (with source link + evidence label)",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "test": "[1440x900] revealing auto-marks tasks done",
+   "pass": true,
+   "detail": "213"
+  },
+  {
+   "test": "[1440x900] reset clears progress",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] keyboard 2 selects option 2 and Enter reveals",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] Enter after reveal goes to next task",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] ArrowLeft goes back",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] Mark done persists across reload (button + sidebar \u2713 + strike class)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] M key toggles done and persists",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] written answer persists across reload",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] home shows progress and Continue",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] Focus mode via F and Esc exits",
+   "pass": true,
+   "detail": "(True, True)"
+  },
+  {
+   "test": "[1440x900] Focus button + Exit button",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] Sidebar \u2630 toggle (persists) and S key",
+   "pass": true,
+   "detail": "(True, True, True, True)"
+  },
+  {
+   "test": "[1440x900] Review my misses: wrong answer queued, re-answer clears",
+   "pass": true,
+   "detail": "(1, True, True)"
+  },
+  {
+   "test": "[1440x900] accuracy stat displayed",
+   "pass": true,
+   "detail": "100%"
+  },
+  {
+   "test": "[1440x900] export JSON",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] import JSON restores progress",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] no horizontal overflow",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "[1440x900] no console errors",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "test": "[links] 48 unique source links non-404 (403/timeouts allowed)",
+   "pass": true,
+   "detail": "{}"
+  }
+ ]
+}

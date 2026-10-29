@@ -1,0 +1,15 @@
+from c_teach import tp, gb, ms, wr
+DRILLS=[
+gb("1.1","Headline: \"Quality dental care for the whole family.\"","bad","Platitude — every clinic could say it (Hopkins). No number, no reader callout, no reason.",["specificity","reader_callout"],"hopkins"),
+tp("1.1","Hopkins drill: which line uses reason-why?","'Our implants are the best.'","'Every implant plan starts with a 3D scan, so you see the exact position before anything is done.'",1,"Reason-why explains WHY to believe/act.",["reason_why","specificity"],"hopkins"),
+wr("1.1","BRIEF: Take the platitude 'Professional skin care you can trust' and rewrite it 3 ways, each with one specific, checkable fact (use placeholders like [X years] if you don't know the real number).",
+ ["1) 'Every treatment is done by a licensed nurse with [X] years at the clinic.'\n2) 'Your first visit includes a skin analysis and a written plan — before you pay for anything.'\n3) 'We publish our full price list online — no package pressure in the chair.'"],
+ ["Find the claim behind the adjective (what makes it 'trustworthy'?).","Replace adjective with a fact the reader could verify.","Never invent numbers — use placeholders until you know."],
+ ["3 rewrites","Each has a checkable fact","No invented numbers"],["specificity","reason_why"],"hopkins"),
+tp("1.2","Caples drill: which is a pure curiosity headline (the weak kind)?","'What happened at this clinic will shock you'","'How 3 Stockholm clinics got more calls from Google Maps'",0,"Curiosity with no self-interest. Caples: combine curiosity with a benefit.",["curiosity_gap","self_interest"],"caples_wiki"),
+tp("1.2","Schwartz drill: a clinic owner who already knows Synlig Media and the 4,900 kr offer (most aware). Best ad?","A long educational video about why Google Maps matters","'7-Day Maps Fix — 4,900 kr. 3 slots left in November. Reply to book.'",1,"Most-aware prospects need the offer and terms, not education. (Only state scarcity if true.)",["awareness","offer"],"schwartz"),
+gb("1.2","Aesthetic clinic: \"Come in for a free 10-minute skin test — touch and try the products before you choose a treatment.\"","good","Lauder-style: trial, touch, no risk.",["sampling"],"lauder"),
+tp("1.3","Value equation drill: which change lowers TIME DELAY?","'Report delivered within 24 hours'","'Award-winning team'",0,"Time delay is the wait for the result. 24h reduces it; awards affect perceived likelihood at most.",["value_equation"],"hormozi"),
+gb("1.3","Meta ad plan: 5 ads, all the same photo with different button colours, narrow interest targeting.","bad","Not creative diversification; Meta's Andromeda guidance favours genuinely different concepts with broader delivery.",["creative_targeting"],"meta_andromeda"),
+ms("1.3","Video ad: 0–5s animated logo, 5–20s music montage of the clinic interior, ends with 'Visit our website'.",["weak_hook","no_offer","no_cta"],"No hook in the first 3s (Meta: up to 47% of value there), no offer, vague CTA. Also likely meaningless sound-off.",["hook","sound_off"],"meta_video"),
+]
