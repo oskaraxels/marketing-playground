@@ -12,3 +12,7 @@
 - [x] Local functional tests 40/40 (no links yet). Next: SOURCES.md, link check, README, deploy
 - [x] SOURCES.md generated (research/make_sources.py)
 - [x] SOFII dropped (404), Lauder source -> elcompanies.com; README, .nojekyll
+- [x] Repo created + pushed (commit 6d753c7). Next: enable Pages, live test
+- [x] Pages built
+- [x] Live tests 41/41 at https://oskaraxels.github.io/marketing-playground/ (tests/results-live.json). Local 41/41 (tests/results-local.json).
+## Status: COMPLETE. To change content: edit research/c_*.py -> python3 research/build.py (from research/) -> make_sources.py -> test -> push.
